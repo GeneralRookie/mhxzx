@@ -1,0 +1,23 @@
+{
+  "name": "myblog",
+  "version": "0.0.1",
+  "description": "myblog",
+  "main": "index.js",
+  "authors": {
+    "name": "Bansen",
+    "email": "503292323@qq.com"
+  },
+  "repository": "/myblog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^1.3.2",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-container": "^2.1.0"
+  }
+}
